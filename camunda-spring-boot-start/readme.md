@@ -5,3 +5,5 @@ login with: admin/password
 
 # run
 simply run route.sse.SimpleApplication
+
+open http://localhost:8080
