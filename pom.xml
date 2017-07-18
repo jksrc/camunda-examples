@@ -54,5 +54,6 @@
 
 	<modules>
 		<module>camunda-spring-boot-start</module>
+		<module>camunda-sse-tasklist</module>
 	</modules>
 </project>
