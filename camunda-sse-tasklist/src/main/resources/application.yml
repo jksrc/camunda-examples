@@ -1,0 +1,14 @@
+camunda:
+  bpm:
+    admin-user:
+      email:
+      id: admin
+      last-name: Admin 
+      first-name: Admin
+      password: password
+    history-level: NONE
+    authorization:
+      enabled: true
+      enabled-for-custom-code: true
+    filter:
+      create: my
