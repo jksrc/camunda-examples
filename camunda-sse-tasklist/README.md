@@ -13,7 +13,7 @@ this examples shows how to use Server Sent Events (SSE) to update the camunda ta
 this works only with browser supporting SSE (all should do, except IE)
 
 
-# what is going on
+# How does it work
 Process engine:
 - In the package bpm.sse.plugins.tasknotifications, there is a process-engine plug-in that listens for task changes (create, complete and delete) and forwards them to the SseTasklistNotifier
 - The package bpm.sse.rest contains this notifier and also the REST resource for providing SSE (ServerSentEventsResource)
